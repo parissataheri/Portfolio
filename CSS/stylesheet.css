@@ -1,0 +1,13 @@
+
+.box1{
+	width:50%;
+}
+.red{
+	background-color: red; 
+}
+.blue{
+	background-color:blue;
+}
+@media(max-width:500px){
+
+}
