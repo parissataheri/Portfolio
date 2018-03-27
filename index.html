@@ -3,54 +3,140 @@
 <head>
 	<title>Tommy's Portfolio</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="CSS/stylesheet.css">
 
 </head>
 <body>
 
-	<header>
-		<!-- Need to make a top navigation bar but dont know how yet -->
-		<h1>Welcome to my Portfolio.</h1>		
 
+	<!-- BOOTSTRAP PRACTICE -->
 
-	</header>
+<!-- 	<div class="row">
+		
+		<div class="col-sm-12 col-md-3 col-lg-6 text-center">HI</div>
+		<div class="col-sm-12 col-md-3 col-lg-6 text-center">BYE</div>
+		<div class="col-sm-12 col-md-3 col-lg-6 text-center">WELCOME</div>
+		<div class="col-sm-12 col-md-3 col-lg-6 text-center">CIAO</div>
 
-	<main>
-		<div>
-			<!-- "About" paragraph is just a placeholder for now needs to be better -->
-			<h2>About</h2>
-				<p> What started out as curiosity quickly turned into a passion when I embarked on my journey to learn computer programming. I started out as a self-taught coder, learning through online courses, then decided to further my knowlede by returning to university to obtain a degree in Computer Science. I have worked on a variety of projects, each one allowing me to expand my knowldge in different area of web development. 
-				</p>
-		</div>
+	</div> -->
+<!-- 
+	<form method="POST" action="/users">
 
-		<div>
-			<!-- This is where we will include links to work done -->
-			<h2>What I do</h2>
-				<ul>
-					<li><a href=#> Project A </a></li>
-					<li><a href=#> Project B </a></li>
-					<li><a href=#> Project C </a></li>
-					<li><a href=#> Project D </a></li>
+		<label for="first_name">First name</label>
+		<input class="" type="text" name="first_name" value="" placeholder="Insert your name...">
+
+		<label for="last_name">Last name</label>
+		<input class="" type="text" name="last_name" value="Doe">
+
+		<label for="email">Email</label>
+		<input class="" type="text" name="email">
+
+		<label for="password">Password</label>
+		<input class="" type="password" name="password">
+
+		<label for="comments">Comments</label>
+		<textarea cols="10" rows="5" name="comments"></textarea>
+
+		<label for="names">Names</label>
+		<select name="names">
+			
+			<option value="Parissa">Parissa</option>
+			<option value="Tommy">Tommy</option>
+			<option value="Teri">Teri</option>
+			<option value="Lia">Lia</option>
+
+		</select>
+
+		<input type="submit" name="" value="Submit">
+
+	</form> -->
+
+	<div>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand text-center" href="#">Tommy Baloukas</a>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+				  <li class="nav-item active">
+				    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Portfolio</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Contact</a>
+				  </li>
+				  <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				      Dropdown link
+				    </a>
+				    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				      <a class="dropdown-item" href="#">About</a>
+				      <a class="dropdown-item" href="#">Expertise</a>
+				      <a class="dropdown-item" href="#">Projects</a>
+				    </div>
+				  </li>
 				</ul>
-		</div>
+			</div>
+		</nav>
+	</div>
 
 		<div>
-			<h2>Contact</h2>
-				<p> Tommy Baloukas currently lives and works in Montreal,QC. For any questions, work or partnertership requests please feel free to get in touch.</p>
-					<dl>Email - <a href="mailto:tom.baloukas@gmail.com">tom.baloukas@gmail.com</a></dl>
-					<dl>Phone - 514.560.9767</dl>
-					<dl>Social Media</dl>
-		</div>
+		<header>
+			<!-- Need to make a top navigation bar but dont know how yet -->
+			<h1>Welcome to my Portfolio.</h1>		
+		</header>
 
-	</main>
+		<main>
+			<div>
+				<!-- "About" paragraph is just a placeholder for now needs to be better -->
+				<h2>About</h2>
+					<p> What started out as curiosity quickly turned into a passion when I embarked on my journey to learn computer programming. I started out as a self-taught coder, learning through online courses, then decided to further my knowlede by returning to university to obtain a degree in Computer Science. I have worked on a variety of projects, each one allowing me to expand my knowldge in different area of web development. 
+					</p>
+			</div>
 
-	<footer>
-		<p>All rights reserved to T&P 2018</a>.</p>
-			<a href="#top">Back to top</a>
+			<div>
+				<h2>Expertise</h2>
+				
 
-	</footer>
+			</div>	
 
+			<div>
+				<!-- This is where we will include links to work done -->
+				<h2>What I do</h2>
+					<ul>
+						<li><a href=#> Project A </a></li>
+						<li><a href=#> Project B </a></li>
+						<li><a href=#> Project C </a></li>
+						<li><a href=#> Project D </a></li>
+					</ul>
+			</div>
+
+
+
+			<div>
+				<h2>Contact</h2>
+					<p> Tommy Baloukas currently lives and works in Montreal,QC. For any questions, work or partnertership requests please feel free to get in touch.</p>
+						<dl>Email - <a href="mailto:tom.baloukas@gmail.com">tom.baloukas@gmail.com</a></dl>
+						<dl>Phone - 514.560.9767</dl>
+						<dl>Social Media</dl>
+			</div>
+
+		</main>
+
+		<footer>
+			<p>All rights reserved to T&P 2018</a>.</p>
+				<a href="#top">Back to top</a>
+
+		</footer>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
