@@ -37,20 +37,7 @@ a:link {
 
 /*Header styles*/
 
-.navbar {
-    position: relative;
-}
-.navbar-brand {
-
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width */
-    display: block;
-}
-
-
 .main-header {
-	padding-top: 170px;
   	height: 800px;
   	text-align: center;
   	background: linear-gradient(#CDCFD3, transparent 90%),
@@ -60,11 +47,10 @@ a:link {
 
 .title {
 	font-size: 2rem; /* 32px/16px  */
-  	color: ;
-  	text-transform: none;
-  	font-weight: normal;
+	color: ;
+	text-transform: none;
+	font-weight: normal;
   
- 
 }
 
 .primary {
