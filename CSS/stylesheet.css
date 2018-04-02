@@ -36,7 +36,7 @@ h2 {
 }
 
 a:link {
-  color: #ff4e49;
+  color: #272727;
   text-decoration: none;
 }
 
@@ -90,6 +90,20 @@ a:link {
 
 .list {
 	text-align: left;
+}
+
+.list-title {
+	text-transform: uppercase;
+}
+
+.list-info {
+  color: #272727;
+  margin: 0;
+  font-size: 1em;
+  text-align:left;
+  text-transform: none;
+  padding: 20px 10px 50px 10px;
+  border-bottom: 3px solid #dfe2e6;
 }
 
 .main-footer{
