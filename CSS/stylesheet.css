@@ -11,6 +11,7 @@ body {
   margin: 0;
   font: 1.2em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align:center;
+  background: linear-gradient(#CDCFD3, transparent 90%),linear-gradient(0deg, #fff, transparent);
 }
 
 h1 {  		
@@ -40,16 +41,17 @@ a:link {
   text-decoration: none;
 }
 
+header {
+  height: 800px;
+  text-align: center;
+  /*background: #f7f5f5;*/
+  /*background: #fff url('../img/webdev.jpeg') no-repeat center;
+  background-size: cover;*/
+}
 
 /*Header styles*/
-
-.main-header {
-  	height: 800px;
-  	text-align: center;
-  	background: #f7f5f5;
-  	/*background: linear-gradient(#CDCFD3, transparent 90%),
-              	linear-gradient(0deg, #fff, transparent),
-  			#fff url('/img/webdev.jpeg') no-repeat center;*/
+.navbar{
+  display: block;
 }
 
 .title {
@@ -58,7 +60,6 @@ a:link {
 	color: ;
 	text-transform: none;
 	font-weight: lighter;
-  
 }
 
 .primary {
