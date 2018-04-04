@@ -54,6 +54,9 @@ li{
 .navbar{
   display: block;
 }
+.navbar-brand{
+  font-size: 2rem;
+}
 
 .title {
 	font-size: 2rem; /* 32px/16px  */
