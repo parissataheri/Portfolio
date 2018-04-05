@@ -5,6 +5,9 @@
 	font-family: Actor;
 }*/
 
+i:hover{
+  color:#ff4e49;
+}
 
 body {
   color: #272727;
@@ -14,14 +17,7 @@ body {
 }
 
 h1 {  		
-  font-size: 5.625rem; /* 26px/16px */
-  font-weight: bold;
-  text-shadow: 0 1px 1px rgba(0,0,0,.8)/* 32px/16px  */
-  text-transform: none;
-  font-weight: normal;
-  line-height: 1.3;
-  text-shadow: 0 1px 1px rgba(0,0,0,.8);
-  padding: 100px 120px 0px 120px;
+
 }
 
 h2 {
@@ -35,8 +31,13 @@ h2 {
 	margin-top: 60px;
 }
 
-a:link {
+a {
   color: #272727;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ff4e49;
   text-decoration: none;
 }
 
@@ -51,19 +52,22 @@ li{
 }
 
 /*Header styles*/
-.navbar{
-  display: block;
-}
-.navbar-brand{
-  font-size: 2rem;
+.home-title{
+  font-size: 5.625rem; /* 26px/16px */
+  font-weight: bold;
+  padding: 140px 120px 0px 120px;
 }
 
-.title {
-	font-size: 2rem; /* 32px/16px  */
-/*	color: ;
-	text-transform: none;
-	font-weight: lighter;*/
+.home-subtitle {
+  font-size: 2rem; /* 32px/16px  */
 }
+
+.navbar{
+  font-size: 2rem;
+  display: block;
+}
+
+/*Main styles*/
 
 .primary {
 	padding-top: 10px;
