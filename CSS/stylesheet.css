@@ -58,8 +58,15 @@ li{
   padding: 140px 120px 0px 120px;
 }
 
+.home-title2{
+	font-size: 5.625rem;
+	font-weight: bold;
+	padding-right: 30px;
+}
+
 .home-subtitle {
   font-size: 2rem; /* 32px/16px  */
+  padding-right: 30px;
 }
 
 .navbar{
