@@ -10,10 +10,10 @@ i:hover{
 }
 
 body {
-  color: #272727;
-  margin: 0;
-  font: 1.2em/1.5 'Oswald', sans-serif;
-  text-align:center;
+	color: #272727;
+	margin: 0;
+	font: 1.2em/1.5 'Oswald', sans-serif;
+	text-align:center;
 }
 
 h1 {  		
@@ -25,7 +25,6 @@ h2 {
 	text-transform: uppercase;
 	font-size: 25px; 
 	display: inline-block;
-	border-bottom: 2px solid;
 	padding: 0 9px 3px;
 	margin-bottom: 50px;
 	margin-top: 60px;
@@ -47,26 +46,35 @@ header {
   background-color: #f7f5f5;
 }
 
+ul {
+
+	list-style-position:inside;
+}
+
 li{
   list-style: none;
+}
+
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 /*Header styles*/
 .home-title{
   font-size: 5.625rem; /* 26px/16px */
-  font-weight: bold;
+  font-weight: bolder;
   padding: 140px 120px 0px 120px;
 }
 
 .home-title2{
 	font-size: 5.625rem;
-	font-weight: bold;
-	padding-right: 30px;
+	font-weight: bolder;
 }
 
 .home-subtitle {
   font-size: 2rem; /* 32px/16px  */
-  padding-right: 30px;
+  font-weight: lighter;
 }
 
 .navbar{
@@ -79,6 +87,8 @@ li{
 .primary {
 	padding-top: 10px;
  	padding-bottom: 95px;
+ 	padding-left: 150px;
+    padding-right: 150px;
  	line-height: 1.7;
 }
 
@@ -87,8 +97,8 @@ li{
 .third
 .fourth {
   width: 75%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin: auto;
   max-width: 960px;
 
@@ -97,7 +107,7 @@ li{
 .fourth{
 	padding-top: 80px;
     padding-bottom: 70px;
-    border-bottom: 2px solid #dfe2e6
+    
 }
 .t-border{
 	 border-top: 1.2px solid #CDCFD3;
@@ -105,6 +115,7 @@ li{
 
 .list {
 	text-align: left;
+
 }
 
 .list-title {
@@ -118,7 +129,12 @@ li{
   text-align:left;
   text-transform: none;
   padding: 20px 10px 50px 10px;
-  border-bottom: 1px solid #dfe2e6;
+ 
+}
+.line {
+	width: 200px;
+	border-bottom: 3px solid #dfe2e6;
+	margin: 0 auto;
 }
 
 .main-footer{
