@@ -30,6 +30,11 @@ h2 {
 	margin-top: 60px;
 }
 
+h3 {
+
+	padding-top: 50px;
+}
+
 a {
   color: #272727;
   text-decoration: none;
@@ -126,6 +131,9 @@ li{
 .list-item img{
 	width: 70%;
 }
+
+
+
 .list-info {
   color: #272727;
   margin: 0;
@@ -142,6 +150,14 @@ li{
  	padding-top: 60px;
  	margin: 0 auto;
 
+}
+
+.line2 {
+
+	width: 500px;
+	border-bottom: 1px solid #272727;
+	padding-top: 50px;
+	margin: 0 auto;
 }
 
 .line {
