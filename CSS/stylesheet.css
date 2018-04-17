@@ -120,6 +120,7 @@ li{
 
 .list-title {
 	text-transform: uppercase;
+	padding-top: 50px;
 }
 
 .list-info {
@@ -128,7 +129,10 @@ li{
   font-size: 1em;
   text-align:left;
   text-transform: none;
-  padding: 20px 10px 50px 10px;
+  padding: 20px 10px 0px;
+  margin-left: 5%;
+  margin-right: 15%;
+
  
 }
 
@@ -143,7 +147,8 @@ li{
 .line {
 	width: 200px;
 	border-bottom: 3px solid #dfe2e6;
-	margin: 0 auto;
+	padding-top: 50px;
+
 }
 
 .main-footer{
