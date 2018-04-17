@@ -118,21 +118,21 @@ li{
 
 }
 
-.list-title {
+.list-item {
+	font-weight: bold;
 	text-transform: uppercase;
 	padding-top: 50px;
 }
-
+.list-item img{
+	width: 70%;
+}
 .list-info {
   color: #272727;
   margin: 0;
   font-size: 1em;
-  text-align:left;
   text-transform: none;
-  padding: 20px 10px 0px;
-  margin-left: 5%;
-  margin-right: 15%;
-
+  
+ 
  
 }
 
@@ -148,6 +148,7 @@ li{
 	width: 200px;
 	border-bottom: 3px solid #dfe2e6;
 	padding-top: 50px;
+	margin: 0 auto;
 
 }
 
