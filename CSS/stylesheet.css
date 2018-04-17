@@ -131,6 +131,15 @@ li{
   padding: 20px 10px 50px 10px;
  
 }
+
+.line1{
+ 	width: 300px;
+ 	border-bottom: 2px solid #dfe2e6;
+ 	padding-top: 60px;
+ 	margin: 0 auto;
+
+}
+
 .line {
 	width: 200px;
 	border-bottom: 3px solid #dfe2e6;
