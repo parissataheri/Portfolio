@@ -13,14 +13,6 @@ body {
 
 }
 
-/*h1,
-h2,
-h3,
-.company
- {  		
- 	font: 1.2em/1.5 'Oswald', sans-serif;
-}*/
-
 h2 {
 	color: #ff4e49;
 	text-transform: uppercase;
@@ -125,6 +117,7 @@ li{
 	 border-top: 1.2px solid #CDCFD3;
 }
 
+
 .list {
 	text-align: left;
 
@@ -162,7 +155,7 @@ li{
 
 .line2 {
 
-	width: 500px;
+	width: 800px;
 	border-bottom: 10px solid #272727;
 	padding-top: 50px;
 	margin: 0 auto;
@@ -174,6 +167,13 @@ li{
 	padding-top: 50px;
 	margin: 0 auto;
 
+}
+
+.line3 {
+	width:800px;
+	border-bottom: 1px solid #272727;
+	padding-top: 50px;
+	margin: 0 auto;
 }
 
 .main-footer{
