@@ -1,9 +1,4 @@
 
-/*Base Styles*/
-/*
-* {
-	font-family: Actor;
-}*/
 
 i:hover{
   color:#ff4e49;
@@ -14,11 +9,17 @@ body {
 	margin: 0;
 	font: 1.2em/1.5 'Oswald', sans-serif;
 	text-align:center;
-}
-
-h1 {  		
+	font-weight: lighter;
 
 }
+
+/*h1,
+h2,
+h3,
+.company
+ {  		
+ 	font: 1.2em/1.5 'Oswald', sans-serif;
+}*/
 
 h2 {
 	color: #ff4e49;
@@ -130,27 +131,25 @@ li{
 }
 
 .list-item {
-	font-weight: bold;
 	text-transform: uppercase;
 	padding-top: 50px;
 }
+
 .list-item img{
 	width: 70%;
 }
 
 .company {
-	padding-bottom: 20px;
+	 font-style: italic;
+
 }
 
 
-
 .list-info {
-  color: #272727;
   margin: 0;
   font-size: 1em;
   text-transform: none;
-  
- 
+  padding-top: 5%;
  
 }
 
