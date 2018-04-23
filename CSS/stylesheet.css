@@ -87,6 +87,12 @@ li{
   display: block;
 }
 
+.statement{
+	font-size: 3.875rem;
+	padding: 5% 15%;
+
+}
+
 /*Main styles*/
 
 .primary {
@@ -132,6 +138,10 @@ li{
 	width: 70%;
 }
 
+.company {
+	padding-bottom: 20px;
+}
+
 
 
 .list-info {
@@ -145,9 +155,8 @@ li{
 }
 
 .line1{
- 	width: 300px;
+ 	width: 350px;
  	border-bottom: 2px solid #dfe2e6;
- 	padding-top: 60px;
  	margin: 0 auto;
 
 }
@@ -155,7 +164,7 @@ li{
 .line2 {
 
 	width: 500px;
-	border-bottom: 1px solid #272727;
+	border-bottom: 10px solid #272727;
 	padding-top: 50px;
 	margin: 0 auto;
 }
