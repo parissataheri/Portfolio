@@ -119,6 +119,12 @@ li{
 
 .fab {
 	font-size: 3em;
+	padding-bottom: 20px;
+}
+
+.fas {
+	font-size: 3em;
+	padding-bottom: 20px;
 }
 
 .list {
