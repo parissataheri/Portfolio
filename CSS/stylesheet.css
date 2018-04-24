@@ -117,6 +117,9 @@ li{
 	 border-top: 1.2px solid #CDCFD3;
 }
 
+.fab {
+	font-size: 3em;
+}
 
 .list {
 	text-align: left;
@@ -133,7 +136,8 @@ li{
 }
 
 .company {
-	 font-style: italic;
+	font-style: italic;
+	font-weight: bold;
 
 }
 
