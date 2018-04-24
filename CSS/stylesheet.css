@@ -117,14 +117,18 @@ li{
 	 border-top: 1.2px solid #CDCFD3;
 }
 
+.fourth
 .fab {
 	font-size: 3em;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
+.fourth
 .fas {
 	font-size: 3em;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .list {
@@ -142,9 +146,7 @@ li{
 }
 
 .company {
-	font-style: italic;
 	font-weight: bold;
-
 }
 
 
@@ -167,7 +169,7 @@ li{
 
 	width: 800px;
 	border-bottom: 10px solid #272727;
-	padding-top: 50px;
+	padding-top: 20px;
 	margin: 0 auto;
 }
 
