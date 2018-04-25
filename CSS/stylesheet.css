@@ -109,7 +109,6 @@ img {
   padding-right: 100px;
   margin: auto;
   max-width: 960px;
-
 }
 
 .fourth{
@@ -143,6 +142,7 @@ img {
 .list-item {
 	text-transform: uppercase;
 	padding-top: 50px;
+	text-align: left;
 }
 
 .list-item img{
@@ -151,14 +151,16 @@ img {
 	width: 50%;
 }
 
-.company {
+.company{
 	font-weight: bold;
 }
-
 
 .list-info {
   margin: 0;
   font-size: 1em;
+  text-transform: none;
+  padding-top: 5%;
+  text-align: left;
  
 }
 
