@@ -55,7 +55,6 @@ li{
 
 img {
 	position: center;
-	padding-left: 85px;
 }
 
 .row{
@@ -160,9 +159,6 @@ img {
 .list-info {
   margin: 0;
   font-size: 1em;
-  text-transform: none;
-  padding-top: 5%;
-  padding-right: 85px;
  
 }
 
