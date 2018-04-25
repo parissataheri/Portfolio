@@ -132,7 +132,7 @@ li{
 }
 
 .list {
-	text-align: left;
+	/*text-align: left;*/
 
 }
 
@@ -142,7 +142,9 @@ li{
 }
 
 .list-item img{
-	width: 70%;
+	display: block;
+	margin:0 auto;
+	width: 50%;
 }
 
 .company {
