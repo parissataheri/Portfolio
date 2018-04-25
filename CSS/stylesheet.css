@@ -53,6 +53,11 @@ li{
   list-style: none;
 }
 
+img {
+	position: center;
+	padding-left: 85px;
+}
+
 .row{
 	margin-right: 0px;
 	margin-left: 0px;
@@ -155,6 +160,7 @@ li{
   font-size: 1em;
   text-transform: none;
   padding-top: 5%;
+  padding-right: 85px;
  
 }
 
