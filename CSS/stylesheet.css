@@ -18,8 +18,7 @@ h2 {
 	text-transform: uppercase;
 	font-size: 25px; 
 	display: inline-block;
-	padding: 0 9px 3px;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	margin-top: 60px;
 }
 
@@ -54,7 +53,7 @@ li{
 }
 
 img {
-	position: center;
+
 }
 
 .row{
@@ -136,19 +135,21 @@ img {
 
 .list {
 	/*text-align: left;*/
+	text-align: justify;
+    text-justify: inter-word;
 
 }
 
 .list-item {
 	text-transform: uppercase;
-	padding-top: 50px;
-	text-align: left;
+	
 }
 
 .list-item img{
 	display: block;
 	margin:0 auto;
 	width: 50%;
+	vertical-align: baseline;
 }
 
 .company{
@@ -175,7 +176,6 @@ img {
 
 	width: 800px;
 	border-bottom: 10px solid #272727;
-	padding-top: 20px;
 	margin: 0 auto;
 }
 
@@ -183,7 +183,7 @@ img {
 	width: 200px;
 	border-bottom: 3px solid #dfe2e6;
 	padding-top: 50px;
-	margin: 0 auto;
+	margin: 0 auto 60px auto;
 
 }
 
