@@ -53,7 +53,21 @@ li{
 }
 
 img {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#IQTAI,
+#jmsbPicture
+ {
+	width: 60%;
+}
 
+#emsbPicture{
+	width:70%;
+}
+
+#jaycPicture {
+	width:40%;
 }
 
 .row{
@@ -180,7 +194,7 @@ img {
 }
 
 .line {
-	width: 200px;
+	width: 50px;
 	border-bottom: 3px solid #dfe2e6;
 	padding-top: 50px;
 	margin: 0 auto 60px auto;
